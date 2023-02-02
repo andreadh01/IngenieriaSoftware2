@@ -20,7 +20,7 @@ public class MySQLAdapter extends DBConnection {
             String password = "";
             String host = "localhost";
             String port = "3306";
-            String db = "test";
+            String db = "finkies";
 
             String url = "jdbc:mysql://${host}:${port}/${db}"
                     .replace("${host}", host).replace("${port}", port).replace("${db}", db);

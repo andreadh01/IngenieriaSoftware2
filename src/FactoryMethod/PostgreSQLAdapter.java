@@ -3,6 +3,7 @@ package FactoryMethod;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+
 public class PostgreSQLAdapter extends DBConnection {
     static {
         try {
